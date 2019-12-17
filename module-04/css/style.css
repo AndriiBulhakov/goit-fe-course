@@ -1,0 +1,298 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+img{
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.header {
+    font-family: Open Sans;
+}
+
+.hedder__inner {
+    padding: 35px 0;
+    line-height: 32px;
+}
+
+
+.intro_title {
+    text-align: center;
+    color: #626262;
+    display: block;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-family: Roboto;
+    font-weight: 900;
+    letter-spacing: -0.6;
+}
+
+
+
+.intro_title:after {
+    content: "";
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color:#1abc9c ;
+    margin: 25px auto 0;
+
+}
+
+.clearfix:after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+ 
+.logo {
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 300;
+    float: left;
+    letter-spacing:-0.6px;
+    display: inline-block;
+    text-decoration: none;
+    color: #555252;
+    
+}
+
+
+.logo_m {
+    color:#1abc9c ;
+    font-weight: 900;
+}
+
+.nav {
+    text-transform: uppercase;
+    font-size: 14px;
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 900;
+
+}
+
+.nav_link {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    color: black;
+    margin: 0 17px;
+    line-height: 11px;
+    letter-spacing: -0.6px;
+    font-weight: 700;
+    vertical-align: middle;
+
+}
+
+.nav_link:hover {
+    color:#1abc9c ;
+}
+
+.products__section{
+    padding-top: 65px;
+    padding-bottom: 50px;
+}
+.news__section{
+    padding-top:50px;
+    padding-bottom:80px;
+}
+
+.heading__wrap{
+    margin-bottom:80px;
+}
+.heading__wrap.products{
+    margin-bottom: 90px;
+}
+
+.item-b {
+    height: 283px;
+    width: 240px;
+    line-height: 283px;
+    background-color: #e9f0fd;
+    text-align: center;
+    padding: 0 10px;
+    max-width: 100%;
+}
+.item-b__img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.item__block {
+    display: block;
+    margin-right: -30px;
+    margin-bottom: -30px;
+    font-size: 0;   
+}
+
+a {
+    text-decoration: none;
+}
+
+.item-box{
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    font-size: 0;
+}
+
+.description_price {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 900;
+    max-width: 100%;
+    
+}
+
+.description {
+    background-color:#323232 ;
+    text-transform: uppercase;
+    width: 100%;
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 5px 15px;
+}
+
+.price {
+    background-color:#8c8c8c ;
+    display: table-cell;
+    margin-left: -4px;
+    width: 54px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 15px;
+}
+
+
+.item-img{
+    display: block;
+}
+
+
+.item:hover  .price{
+
+    background-color: #7fd9c7;
+
+}
+
+.item:hover .description{
+
+    background-color: #1abc9c;
+
+}
+
+.news_heading {
+    text-align: center;
+    padding: 100px;
+    color: #626262;
+    display: block;
+    text-transform: uppercase;
+    font-size: 48px;
+    
+}
+
+.news_heading:after {
+    content: "";
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color:#1abc9c ;
+    margin: 25px auto 0;
+
+}
+
+.heading {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.6px;
+    font-family: 'Open Sans', sans-serif;
+    color: #555252;
+    margin-bottom: 30px;
+}
+
+.heading:after {
+    content: "";
+    display: block;
+    width: 136px;
+    height: 3px;
+    background-color:#1abc9c ;
+    margin-top: 15px;
+}
+
+.news{
+    font-size: 0;
+    margin-right: -30px;
+}
+
+.news__block {
+    width: 33.333333333%;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+.news__img{
+    margin-bottom: 15px;
+}
+
+.news_text {
+    color: #605e5e;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 160px;
+    height: 51px;
+    background-color: #4ec6ab;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    padding: 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+    color: white;
+    
+}
