@@ -44,6 +44,8 @@ img {
     font-weight: 700;
     color: #95e1d3;
     font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    
 }
 
 .nav {
@@ -302,6 +304,10 @@ img {
     align-items: center;
 }
 
+.footer__form{
+    align-self: center;
+}
+
 .footer_text {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
@@ -313,9 +319,7 @@ img {
     color: #f38181;
 }
 
-.footer__form {
-    
-}
+
 
 .input__form {
     height: 40px;

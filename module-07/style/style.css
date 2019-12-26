@@ -1,0 +1,238 @@
+/* font-family: 'Ubuntu', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+@font-face {
+	font-family: 'Wisdom Script';
+	src: url('fonts/Wisdom Script AJ.eot');
+	src: local('☺'), url('fonts/Wisdom Script AJ.woff') format('woff'), url('fonts/Wisdom Script AJ.ttf') format('truetype'), url('fonts/Wisdom Script AJ.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat.eot');
+	src: local('☺'), url('fonts/Montserrat.woff') format('woff'), url('fonts/Montserrat.ttf') format('truetype'), url('fonts/Montserrat.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'montserrat_bold';
+	src: url('fonts/montserrat_bold.eot');
+	src: local('☺'), url('fonts/montserrat_bold.woff') format('woff'), url('fonts/montserrat_bold.ttf') format('truetype'), url('fonts/montserrat_bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+.container {
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+    margin-bottom: 125px;
+}
+
+.logo {
+    font-size: 26px;
+    font-family: 'Wisdom Script';
+    color: #fed136;
+    font-weight: 400;
+}
+
+.nav {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+.nav_link {
+    text-decoration: none;
+    margin: 0 20px;
+    color: #222222;
+    font-size: 14px;
+}
+
+.nav_link:hover {
+    color: #fed136;
+}
+
+.nav_link:last-child {
+    margin: 0 0 0 20px;
+}
+
+.services__title {
+    margin: 0 0 80px 0 ;
+    text-align: center;
+}
+
+.services__heading {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'montserrat_bold';
+    font-weight: 700;
+    margin: 0 0 20px 0 ;
+}
+
+.services__subtitle {
+    color: #777777;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+}
+
+.services__item-img {
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    border: 2px solid #fed136;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img1 {
+    background-image: url(img/Icon-Basket.png);
+}
+
+.img2 {
+    background-image: url(img/Icon-Laptop.png);
+}
+
+.img3 {
+    background-image: url(img/Icon-Locked.png);
+}
+
+
+
+.services__section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services__box {
+    display: flex;
+    flex: 33.33333%;
+}
+
+.services__item-title {
+    text-align: center;
+    font-family: 'montserrat_bold';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.services__description {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+}
+
+.services__block {
+    margin-bottom: 120px;
+}
+
+.contact__section {
+    background-size: cover;
+    height: 676px;
+    
+}
+
+.contact__section-1  {
+    background-image: url(img/backgrond.jpg);
+}
+
+.contact__title {
+    margin: 0 0 75px 0 ;
+    text-align: center;
+}
+
+.contact__subtitle {
+    color: #777777;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+}
+
+.contact__heading {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'montserrat_bold';
+    font-weight: 700;
+    margin: 0 0 20px 0 ;
+    color: #ffffff;
+    padding-top: 110px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    font-family: 'montserrat_bold';
+    font-weight: 700;
+}
+
+.short__name {
+    display: flex;
+    flex-direction: column;
+    
+    padding-right: 28px;
+}
+
+.input__form {
+    height: 50px;
+    width: 450px;
+    text-transform: uppercase;
+    margin-bottom: 29px;
+    border: none;
+    resize: none;
+    overflow: auto;
+    border-radius: 3px;
+    font-size: 14px;
+    
+}
+
+.textarea__form {
+    width: 450px;
+    height: 210px;
+    border: none;
+    resize: none;
+    overflow: auto;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-size: 14px;
+    
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.input__button {
+    border-radius: 3px;
+    background-color: #fed136;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 240px;
+    height: 65px;
+    border: none;
+    font-family: 'montserrat_bold';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.button__box {
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
